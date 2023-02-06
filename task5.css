@@ -6,11 +6,23 @@ body{
     margin: auto;
     background-color: #fff;
 }
+.title{
+    padding-top: 30px;
+}
+
 button{
     background-color: rgb(255, 118, 141);
+    margin-bottom: 10px;
+}
+button:hover{
+    background-color: rgb(234, 64, 93);
+
 }
 img{
     width: 250px;
     height: 250px;
-    margin: 5px;
+    margin: 10px;
+}
+.page2,.page3,.page4{
+display: none;
 }
