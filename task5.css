@@ -23,6 +23,9 @@ img{
     height: 250px;
     margin: 10px;
 }
-.page2,.page3,.page4{
+.page1,.page2,.page3{
 display: none;
+}
+.page4{
+    display: inline;
 }
