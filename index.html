@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,70 +9,74 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="task5.css">
 </head>
+
 <body>
     <div class="container">
         <h1 class="title">Fliterable Gallary</h1>
         <div class="btn">
-            <button class="btn btn" onclick="div1()">Web Design</button>
-            <button class="btn btn" onclick="div2()">Mobile App</button>
-            <button class="btn btn" onclick="div3()">Logo Design</button>
-            <button class="btn btn" onclick="div4()">All</button>
+            <button class="btn btn " onclick="showDivs('page1')">Web Design</button>
+            <button class="btn btn" onclick="showDivs('page2')">App Design</button>
+            <button class="btn btn" onclick="showDivs('page3')">Graphic Design</button>
+            <button class="btn btn" onclick="showDivs('all')">All</button>
 
         </div>
-        
-        <div class="page1">
-            <img src="images/9 (1).jpeg" alt="">
-            <img src="images/9 (1).jpg" alt="">
-            <img src="images/9 (1).webp" alt="">
-            <img src="images/9 (2).jpg" alt="">
 
-        </div>
-        <div class="page2">
-            <img src="images/9 (2).webp" alt="">
-            <img src="images/9 (2).jpg" alt="">
-            <img src="images/9 (3).jpg" alt="">
-            <img src="images/9 (3).webp" alt="">
-
-
-        </div>
-        <div class="page3">
-            <img src="images/9 (4).jpg" alt="">
-            <img src="images/9 (4).webp" alt="">
-            <img src="images/10.jpeg" alt="">
-            <img src="images/10.jpg" alt="">
-
-
-        </div>
-        <div class="page4">
-            <div >
+        <div class="allDives">
+            <div class="page1">
                 <img src="images/9 (1).jpeg" alt="">
                 <img src="images/9 (1).jpg" alt="">
                 <img src="images/9 (1).webp" alt="">
                 <img src="images/9 (2).jpg" alt="">
-    
+
             </div>
-            <div >
+            <div class="page2">
                 <img src="images/9 (2).webp" alt="">
                 <img src="images/9 (2).jpg" alt="">
                 <img src="images/9 (3).jpg" alt="">
                 <img src="images/9 (3).webp" alt="">
-    
-    
+
+
             </div>
-            <div >
+            <div class="page3">
                 <img src="images/9 (4).jpg" alt="">
                 <img src="images/9 (4).webp" alt="">
                 <img src="images/10.jpeg" alt="">
                 <img src="images/10.jpg" alt="">
-    
-    
+
+
             </div>
-            </div>  
+            <div class="page4">
+                <div>
+                    <img src="images/9 (1).jpeg" alt="">
+                    <img src="images/9 (1).jpg" alt="">
+                    <img src="images/9 (1).webp" alt="">
+                    <img src="images/9 (2).jpg" alt="">
+
+                </div>
+                <div>
+                    <img src="images/9 (2).webp" alt="">
+                    <img src="images/9 (2).jpg" alt="">
+                    <img src="images/9 (3).jpg" alt="">
+                    <img src="images/9 (3).webp" alt="">
+
+
+                </div>
+                <div>
+                    <img src="images/9 (4).jpg" alt="">
+                    <img src="images/9 (4).webp" alt="">
+                    <img src="images/10.jpeg" alt="">
+                    <img src="images/10.jpg" alt="">
+
+
+                </div>
+            </div>
         </div>
+    </div>
     </div>
     <script src="task.js"></script>
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.js"></script>  
+    <script src="js/bootstrap.js"></script>
 </body>
+
 </html>
